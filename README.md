@@ -101,3 +101,8 @@ git fetch origin
 git push -u origin main
 git status
 ```
+Remove the large File from Git History:
+If the file was previously committed, use git filter-repo to remove it:
+```bash
+git filter-repo --path .terraform/providers/registry.terraform.io/hashicorp/aws/5.66.0/linux_amd64/terraform-provider-aws_v5.66.0_x5 --invert-paths
+```
