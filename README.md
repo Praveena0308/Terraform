@@ -64,3 +64,20 @@ connect to instance with ssh key
 ```bash
 ssh ec2-user@<ec2-public_ip>
 ```
+
+
+## git hub pushing troubleshoot 
+
+```bash
+git add .
+git remote -v
+git push --force origin main
+git remote add origin https://github.com/Praveena0308/Terraform.git
+git commit -m "Initial commit"
+git push -u origin main
+git fetch origin
+ git rebase origin/main
+
+git push -u origin main
+git status
+```
