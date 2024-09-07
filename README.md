@@ -2,13 +2,13 @@
 
 #### Terraform Basics & Core Concepts
 
-## Goal: Understand Terraform’s core concepts and get hands-on with basic infrastructure.
-## Learn:
-# What is Terraform and why IaC is important.
+#### Goal: Understand Terraform’s core concepts and get hands-on with basic infrastructure.
+#### Learn:
+#### What is Terraform and why IaC is important.
 
-# Terraform architecture: providers, resources, modules, state, and execution plan.
+#### Terraform architecture: providers, resources, modules, state, and execution plan.
 
-# Basic Terraform workflow (init, plan, apply, destroy).
+#### Basic Terraform workflow (init, plan, apply, destroy).
 
 
 Terraform configuration to launch an EC2 instance in AWS.
