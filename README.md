@@ -5,6 +5,14 @@
 #### Goal: Understand Terraform’s core concepts and get hands-on with basic infrastructure.
 #### Learn:
 #### What is Terraform and why IaC is important.
+terraform is an infrastructure as a code IoC
+
+lets you automate and manage your infrastructure , platform, service that run on platform  
+
+it defines resource by human readable  configuration files declarative format
+
+declarative mainly means desired state(what u want at the end)
+
 
 #### Terraform architecture: providers, resources, modules, state, and execution plan.
 
