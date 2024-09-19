@@ -90,19 +90,47 @@ ssh ec2-user@<ec2-public_ip>
 
 ```bash
 git add .
+
 git remote -v
+
 git push --force origin main
+
 git remote add origin https://github.com/Praveena0308/Terraform.git
+
 git commit -m "Initial commit"
-git push -u origin main
-git fetch origin
- git rebase origin/main
 
 git push -u origin main
+
+git fetch origin
+
+git rebase origin/main
+
+git push -u origin main
+
 git status
 ```
 Remove the large File from Git History:
 If the file was previously committed, use git filter-repo to remove it:
+
 ```bash
 git filter-repo --path .terraform/providers/registry.terraform.io/hashicorp/aws/5.66.0/linux_amd64/terraform-provider-aws_v5.66.0_x5 --invert-paths
 ```
+
+export environmental variables to terraform 
+
+export AWS_ACCESS_KEY_ID = ACCESS_KEY
+export AWS_SECRET_ACCESS_KEY= SECRET_KEY
+
+to verify if its exported 
+
+echo $AWS_ACCESS_KEY_ID
+echo $AWS_SECRET_ACCESS_KEY
+
+list all environment variables
+
+env | grep AWS
+
+## Module Creations
+
+
+

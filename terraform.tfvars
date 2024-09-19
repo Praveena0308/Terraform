@@ -1,0 +1,8 @@
+vpc_cidr_block = "10.0.0.0/16"
+subnet_cidr_block = "10.0.10.0/24"
+avail_zone = "eu-central-1a"
+instance_type = "t2.micro"
+public_key_location = "/home/praveena/.ssh/id_rsa.pub"
+env_prefix = "dev" 
+my_ip = "80.135.119.183/32"
+image_name = "amzn2-ami-hvm-*-x86_64-gp2"
