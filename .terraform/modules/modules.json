@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"myapp-server","Source":"./modules/ec2","Dir":"modules/ec2"},{"Key":"myapp-subnet","Source":"./modules/subnet","Dir":"modules/subnet"},{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"}]}
