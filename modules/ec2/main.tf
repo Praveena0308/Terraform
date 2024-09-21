@@ -47,6 +47,7 @@ resource "aws_key_pair" "ssh-key" {
 }
 
 resource "aws_instance" "myapp-server" {
+  count = 4
   ami = data.aws_ami.linux.id
   instance_type = var.instance_type
 
