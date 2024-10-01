@@ -132,5 +132,9 @@ env | grep AWS
 
 ## Module Creations
 
+## Running mern application in ec2 instance 
 
+from https://github.com/sujaykundu777/mern-docker.git
+
+installing docker 
 
